@@ -32,7 +32,7 @@ class ValidationMenu extends FormRequest
     public function messages()
     {
         return[
-            'email.required' => 'This field is required'
+            'email.required' => 'This field is required and full'
         ];
     }
 }
