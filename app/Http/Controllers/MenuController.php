@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ValidationMenu;
 use Illuminate\Http\Request;
 
 class MenuController extends Controller
@@ -32,7 +33,7 @@ class MenuController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(ValidationMenu $request)
     {
         dd($request->all());
     }

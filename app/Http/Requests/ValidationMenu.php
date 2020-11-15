@@ -24,15 +24,14 @@ class ValidationMenu extends FormRequest
     public function rules()
     {
         return [
-            'icon' => 'required',
-            'email' => 'required|integer'
+            'icon' => 'required|min:4'
         ];
     }
 
     public function messages()
     {
         return[
-            'email.required' => 'This field is required and full'
+            'icon.required' => 'test1820'
         ];
     }
 }
