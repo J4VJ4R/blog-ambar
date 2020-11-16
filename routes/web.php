@@ -12,5 +12,6 @@
 */
 
 Route::view('/', 'welcome');
+Route::get('menu', 'MenuController@index')->name('menu.index');
+
 Route::get('menu/crear', 'MenuController@create')->name('menu.crear');
-Route::post('menu', 'MenuController@store')->name('menu.store');

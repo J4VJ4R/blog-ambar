@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ValidationMenu;
+use App\Menu;
 use Illuminate\Http\Request;
 
 class MenuController extends Controller
@@ -14,7 +15,8 @@ class MenuController extends Controller
      */
     public function index()
     {
-        //
+        $menus = Menu::pluck('nombre', 'id');
+        dd($menus);
     }
 
     /**
@@ -24,7 +26,11 @@ class MenuController extends Controller
      */
     public function create()
     {
-        return view('menu.create');
+        $data = [
+            'nombre' => 'cualquiera',
+            'slug' => 'cualquiera'
+        ];
+        Menu::create($data);
     }
 
     /**
