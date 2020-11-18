@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e7b781d-e7ad-4cf6-96ba-118a7dd13253" name="Default Changelist" comment="add a model named Menu to get data of us database">
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/about.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,8 +155,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\blog-ambar" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -171,6 +180,8 @@
       <workItem from="1605463599511" duration="16174000" />
       <workItem from="1605556008632" duration="16178000" />
       <workItem from="1605636270647" duration="588000" />
+      <workItem from="1605643708967" duration="5772000" />
+      <workItem from="1605722121682" duration="6885000" />
     </task>
     <task id="LOCAL-00001" summary="this is a test">
       <created>1605471523188</created>
@@ -226,14 +237,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="538" y="34" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605471475922" />
-    <state x="604" y="332" key="NewPhpFileDialog" timestamp="1605463790390">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2355" y="351" key="NewPhpFileDialog" timestamp="1605643771766">
+      <screen x="1600" y="-68" width="1920" height="1040" />
     </state>
     <state x="604" y="332" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1605463790390" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1605468689536">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2355" y="351" key="NewPhpFileDialog/0.0.1600.860/1600.-68.1920.1040@1600.-68.1920.1040" timestamp="1605643771766" />
+    <state x="2322" y="24" width="1141" height="883" key="SettingsEditor" timestamp="1605723921306">
+      <screen x="1600" y="-68" width="1920" height="1040" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605468689536" />
+    <state x="2322" y="24" width="1141" height="883" key="SettingsEditor/0.0.1600.860/1600.-68.1920.1040@1600.-68.1920.1040" timestamp="1605723921306" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1605482703599">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
